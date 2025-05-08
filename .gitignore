@@ -1,0 +1,56 @@
+# OS Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js and npm
+node_modules
+package-lock.json
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Temporary and Build Files
+build
+dist
+out
+gen
+temp
+tmp
+*.crx
+*.pem
+*.zip
+
+# IDE Specific Files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.sln
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.project
+*.workspace
+*.settings/
+
+# Chrome Extension Specific - Often auto-generated or not needed in repo
+**/_metadata/computed_hashes.json
+**/_locales/*/messages.json # Depending on your workflow, you might want to include these
+**/manifest.json # You definitely want to track this, so it's NOT here
+
+# Log Files
+*.log
+
+# Personal Files (if any in the project root)
+*.local
+*.private
+
+# Optional: If you use a specific testing framework
+# coverage/
+# test-results/
+
+# Optional: If you use a specific module bundler (e.g., Webpack, Parcel)
+# /dist/ # Already covered above, but kept for clarity
+# .cache/
